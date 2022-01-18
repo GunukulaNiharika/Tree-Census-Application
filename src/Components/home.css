@@ -4,7 +4,7 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-image: url("http://localhost:3000/forest1.jpg");
+    background-image: url("https://treecensus.herokuapp.com/forest1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
