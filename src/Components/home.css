@@ -1,0 +1,88 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-image: url("http://localhost:3000/forest1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#head{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.card{
+    width: 40em;
+    margin-top: 4em;
+    padding: 2em;
+    background-color: #000000ad;
+    border: 0.2em solid #1f4207;
+    border-radius: 2em;
+    z-index: 4;
+}
+.center-card{
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    /* align-items: 'center';
+    margin: auto; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form{
+    margin: 1em;
+    padding: 2em;
+}
+.value{
+    width: 30em;
+    padding: 0.7em;
+    margin: 0.5em;
+    
+}
+.label{
+    color: white;
+    font-style: italic;
+}
+.input:focus{
+    border-color: #1f4207;
+    box-shadow: none;
+}
+/* option:focus{
+    border-color: #1f4207;
+    box-shadow: none;
+} */
+option:hover{
+
+    background-color: #1f4207;
+}
+
+.button{
+    padding: 1em;
+    margin: 1em;
+    width: 30em;
+    background-color: #1f4207;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 1em;
+    border: 0.01em solid black;
+
+}
+/* .button:focus {
+    background-color: #1f4207;
+} */
+.button:hover{
+    background-color: #1f4207;
+    border: 0.01em solid #1f4207;
+}
